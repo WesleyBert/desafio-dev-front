@@ -42,6 +42,10 @@ O chatbot deve se conectar a uma **API pública de inteligência artificial** (e
   * Link do deploy no Vercel (se houver).
 * O código será avaliado considerando: arquitetura, clareza, boas práticas, experiência do usuário e criatividade.
 
+## Não menos importante 👇
+
+* Você precisará nos apresentar o seu projeto em uma videoconferência de até 15 minutos. Durante essa apresentação, avaliaremos não apenas as decisões técnicas tomadas, mas também a sua capacidade de comunicação, clareza na explicação, organização do raciocínio e outros aspectos comportamentais importantes para o trabalho em equipe.
+
 ## 💡 Dicas
 
 * [Documentação da API do OpenAI Chat](https://platform.openai.com/docs/api-reference/chat/create)
