@@ -1,4 +1,4 @@
-# Desafio Técnico – Desenvolvedor(a) Front React/Next.js
+# Desafio Técnico – Desenvolvedor(a) Front React/Next.js - Time de Engenharia de Dados & IA
 
 ## Chatbot de IA Integrado
 
