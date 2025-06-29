@@ -2,6 +2,10 @@
 
 Um chatbot inteligente construído com Next.js que permite fazer upload de documentos para fornecer contexto às conversas. O sistema utiliza diferentes modelos de IA através da OpenRouter para gerar respostas baseadas no conteúdo dos documentos carregados.
 
+### Link do deploy
+
+https://desafio-dev-front-chatbot-ia.vercel.app
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Next.js 14** - Framework React com App Router
@@ -112,10 +116,6 @@ Acesse [http://localhost:3000](http://localhost:3000) para ver a aplicação.
 - **Trocar Conversa**: Clique em qualquer conversa na lista
 - **Excluir Conversa**: Use o menu de três pontos
 - **Exportar**: Exporte conversas em JSON ou TXT
-
-### Link do deploy
-
--
 
 ## 📁 Estrutura do Projeto
 
