@@ -27,7 +27,7 @@ export function ChatInput({ onSend, loading }: ChatInputProps) {
         onKeyDown={(e) => e.key === "Enter" && handleSend()}
       />
       <Button onClick={handleSend} disabled={loading || value.trim() === ""}>
-        Enviar
+        Send
       </Button>
     </div>
   );
