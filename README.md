@@ -69,7 +69,7 @@ pnpm install
 Crie um arquivo `.env` na raiz do projeto:
 
 ```env
-OPENROUTER_API_KEY=sua_chave_api_aqui
+NEXT_PUBLIC_API_KEY=sua_chave_api_aqui
 ```
 
 ### 4. Obtenha sua API Key
@@ -78,7 +78,7 @@ OPENROUTER_API_KEY=sua_chave_api_aqui
 2. Crie uma conta ou faça login
 3. Vá para "API Keys" no dashboard
 4. Crie uma nova chave de API
-5. Copie a chave e cole no arquivo `.env.local`
+5. Copie a chave e cole no arquivo `.env`
 
 ### 5. Execute o projeto
 
