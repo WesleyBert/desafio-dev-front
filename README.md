@@ -84,10 +84,6 @@ NEXT_PUBLIC_API_KEY=sua_chave_api_aqui
 
 ```bash
 npm run dev
-# ou
-yarn dev
-# ou
-pnpm dev
 ```
 
 Acesse [http://localhost:3000](http://localhost:3000) para ver a aplicação.
