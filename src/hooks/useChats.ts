@@ -12,7 +12,7 @@ export function useChats(contextDoc: string | null) {
   const currentMessages =
     chats.find((chat) => chat.id === activeChatId)?.messages || [];
 
-  // Carregar chats e modelo do localStorage
+  // load chats and model from localStorage
   useEffect(() => {
     const savedChats = localStorage.getItem("chats");
     const savedModel = localStorage.getItem("selectedModel");
@@ -37,14 +37,14 @@ export function useChats(contextDoc: string | null) {
     }
   }, []);
 
-  // Salvar chats no localStorage
+  // save chats to localStorage
   useEffect(() => {
     if (chats.length > 0) {
       localStorage.setItem("chats", JSON.stringify(chats));
     }
   }, [chats]);
 
-  // Salvar modelo no localStorage
+  // save model to localStorage
   useEffect(() => {
     localStorage.setItem("selectedModel", JSON.stringify(selectedModel));
   }, [selectedModel]);
