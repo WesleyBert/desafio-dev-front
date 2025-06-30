@@ -31,14 +31,14 @@ export function ChatMoreMenu({
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-40">
         <DropdownMenuItem onClick={() => onDelete(chat.id)}>
-          Excluir
+          Delete
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={() => onExport(chat, "json")}>
-          Exportar JSON
+          Export JSON
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => onExport(chat, "txt")}>
-          Exportar TXT
+          Export TXT
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
